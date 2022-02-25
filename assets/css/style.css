@@ -111,6 +111,7 @@ img {
 .col-3 {
     width: 24%;
     border: 1px solid rgba(242,242,242,1);
+    padding: 5px;
 }
 .col-3-h {
     height: 120px;
@@ -130,6 +131,14 @@ img {
     color: white;
     padding: 3px;
     border-radius: 15px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.w-30 {
+    width: 30%;
 }
 
 @media only screen and (max-width: 1200px) {
