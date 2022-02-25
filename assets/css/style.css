@@ -211,4 +211,8 @@ img {
     .text-center {
         text-align: center;
     }
+
+    .reverse-flex {
+        flex-direction: column-reverse;
+    }
 }
