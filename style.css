@@ -18,3 +18,17 @@ nav {
     list-style: none;
     margin: 0px 20px;
 }
+
+.nav-menu li a {
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+
+.nav-menu li a.active {
+    text-decoration: underline blue 3px;
+}
+
+.nav-menu li a:hover {
+    text-decoration: underline blue 5px;
+}
