@@ -95,6 +95,11 @@ img {
     height: auto;
 }
 
+.img-res-r {
+    max-height: 100%;
+    width: auto;
+}
+
 .t-scale {
     transform: scale(0.75);
 }
@@ -104,7 +109,13 @@ img {
 }
 
 .col-3 {
-    width: 25%;
+    width: 24%;
+    border: 1px solid rgba(242,242,242,1);
+}
+.col-3-h {
+    height: 120px;
+    text-align: center;
+    background-color: rgba(242,242,242,1);
 }
 
 @media only screen and (max-width: 1200px) {
