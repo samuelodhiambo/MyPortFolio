@@ -51,6 +51,38 @@ nav {
     display: none;
 }
 
+.hr {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.vrc {
+    width: 50%;
+    flex: 0 0 auto;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.fs-2 {
+    font-size: x-large;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.img-res {
+    max-width: 100%;
+    height: auto;
+}
+
+.a-s-c {
+    align-self: center;
+}
+
 @media only screen and (max-width: 1200px) {
     .nav-menu {
         display: none;
@@ -61,6 +93,7 @@ nav {
         background-color: gray;
         width: 18px;
         height: 2px;
+        user-select: none;
     }
 
     .icon::after {
@@ -70,6 +103,7 @@ nav {
         height: 2px;
         position: absolute;
         top: 9px;
+        user-select: none;
     }
 
     .icon::before {
@@ -79,6 +113,7 @@ nav {
         height: 2px;
         position: absolute;
         top: 5px;
+        user-select: none;
     }
 
     #nav-toggle:checked ~ ul.nav-menu {
@@ -89,5 +124,19 @@ nav {
         background-color: blue;
         width: 100%;
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        margin: 0px 30px;
+    }
+
+    .hr {
+        flex-direction: column;
+        align-items: center;
+    }
+    .vrc {
+        width: 100%
     }
 }
