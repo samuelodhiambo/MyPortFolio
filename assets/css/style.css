@@ -74,6 +74,10 @@ nav {
     width: 75%;
 }
 
+.welcome {
+    text-align: center;
+}
+
 .mt-2 {
     margin-top: 2rem;
 }
@@ -89,6 +93,10 @@ img {
 .img-res {
     max-width: 100%;
     height: auto;
+}
+
+.t-scale {
+    transform: scale(0.75);
 }
 
 .a-s-c {
@@ -150,5 +158,9 @@ img {
     }
     .vrc {
         width: 100%
+    }
+
+    .text-center {
+        text-align: center;
     }
 }
