@@ -118,6 +118,19 @@ img {
     background-color: rgba(242,242,242,1);
 }
 
+.tags {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.blue {
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    padding: 3px;
+    border-radius: 15px;
+}
+
 @media only screen and (max-width: 1200px) {
     .nav-menu {
         display: none;
