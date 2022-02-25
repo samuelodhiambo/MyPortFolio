@@ -4,3 +4,17 @@
     box-sizing: border-box;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-menu li {
+    list-style: none;
+    margin: 0px 20px;
+}
