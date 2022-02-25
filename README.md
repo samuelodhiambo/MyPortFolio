@@ -5,7 +5,7 @@
 
 ## Table of Content
 
-+ [Description](#Description)
++ [Description](#description)
 + [Technology Used](#technologies-used)
 + [Deployment](#deployment)
 + [Licence](#licence)
@@ -36,5 +36,5 @@ https://samuelodhiambo.github.io/MyPortFolio/
 
 - [LinkedIn - Samuel Ian](https://linkedin.com/in/osamwelian3/)
 
-[Go Back to the top](#my-e-prtfolio)
+[Go Back to the top](#my-e-portfolio)
 
